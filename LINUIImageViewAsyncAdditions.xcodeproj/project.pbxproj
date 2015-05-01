@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF26A842B782B6C8ABF54FA /* libPods-LINUIImageViewAsyncAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D97ECEBBB95AE55F5B1840A /* libPods-LINUIImageViewAsyncAdditions.a */; };
+		4EAE0C541AB3209400C7081F /* libLINUIImageViewAsyncAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EAE0C481AB3209400C7081F /* libLINUIImageViewAsyncAdditions.a */; };
+		4EBDECDE1AF38DFD00FC5EF4 /* LINUIImageView+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDECDD1AF38DFD00FC5EF4 /* LINUIImageView+Async.m */; };
+		4EBDECE71AF38E2E00FC5EF4 /* LINAsyncImageProcessedImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDECE21AF38E2E00FC5EF4 /* LINAsyncImageProcessedImageCache.m */; };
+		4EBDECE81AF38E2E00FC5EF4 /* LINAsyncImageRequestHeadersFilterRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDECE41AF38E2E00FC5EF4 /* LINAsyncImageRequestHeadersFilterRegistrar.m */; };
+		4EBDECE91AF38E2E00FC5EF4 /* LINAsyncImageResolvedURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDECE61AF38E2E00FC5EF4 /* LINAsyncImageResolvedURLCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EAE0C551AB3209400C7081F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EAE0C401AB3209400C7081F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EAE0C471AB3209400C7081F;
+			remoteInfo = LINUIImageViewAsyncAdditions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4EAE0C461AB3209400C7081F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3272C4CB8DD9BE455831E0E3 /* Pods-LINUIImageViewAsyncAdditions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LINUIImageViewAsyncAdditions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LINUIImageViewAsyncAdditions/Pods-LINUIImageViewAsyncAdditions.debug.xcconfig"; sourceTree = "<group>"; };
+		4EAE0C481AB3209400C7081F /* libLINUIImageViewAsyncAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLINUIImageViewAsyncAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAE0C531AB3209400C7081F /* LINUIImageViewAsyncAdditionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LINUIImageViewAsyncAdditionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAE0C591AB3209400C7081F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EBDECDC1AF38DFD00FC5EF4 /* LINUIImageView+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LINUIImageView+Async.h"; sourceTree = "<group>"; };
+		4EBDECDD1AF38DFD00FC5EF4 /* LINUIImageView+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LINUIImageView+Async.m"; sourceTree = "<group>"; };
+		4EBDECDF1AF38E2600FC5EF4 /* LINAsyncImageURLProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LINAsyncImageURLProvider.h; sourceTree = "<group>"; };
+		4EBDECE01AF38E2600FC5EF4 /* LINAsyncProcessedImageURLProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LINAsyncProcessedImageURLProvider.h; sourceTree = "<group>"; };
+		4EBDECE11AF38E2E00FC5EF4 /* LINAsyncImageProcessedImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINAsyncImageProcessedImageCache.h; sourceTree = "<group>"; };
+		4EBDECE21AF38E2E00FC5EF4 /* LINAsyncImageProcessedImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINAsyncImageProcessedImageCache.m; sourceTree = "<group>"; };
+		4EBDECE31AF38E2E00FC5EF4 /* LINAsyncImageRequestHeadersFilterRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINAsyncImageRequestHeadersFilterRegistrar.h; sourceTree = "<group>"; };
+		4EBDECE41AF38E2E00FC5EF4 /* LINAsyncImageRequestHeadersFilterRegistrar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINAsyncImageRequestHeadersFilterRegistrar.m; sourceTree = "<group>"; };
+		4EBDECE51AF38E2E00FC5EF4 /* LINAsyncImageResolvedURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINAsyncImageResolvedURLCache.h; sourceTree = "<group>"; };
+		4EBDECE61AF38E2E00FC5EF4 /* LINAsyncImageResolvedURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINAsyncImageResolvedURLCache.m; sourceTree = "<group>"; };
+		5D97ECEBBB95AE55F5B1840A /* libPods-LINUIImageViewAsyncAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LINUIImageViewAsyncAdditions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C4FDAD941B0BBD3532EBAE /* Pods-LINUIImageViewAsyncAdditions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LINUIImageViewAsyncAdditions.release.xcconfig"; path = "Pods/Target Support Files/Pods-LINUIImageViewAsyncAdditions/Pods-LINUIImageViewAsyncAdditions.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EAE0C451AB3209400C7081F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF26A842B782B6C8ABF54FA /* libPods-LINUIImageViewAsyncAdditions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAE0C501AB3209400C7081F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAE0C541AB3209400C7081F /* libLINUIImageViewAsyncAdditions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EAE0C3F1AB3209400C7081F = {
+			isa = PBXGroup;
+			children = (
+				4EAE0C4A1AB3209400C7081F /* LINUIImageViewAsyncAdditions */,
+				4EAE0C571AB3209400C7081F /* LINUIImageViewAsyncAdditionsTests */,
+				4EAE0C491AB3209400C7081F /* Products */,
+				EB960F1D50DC533350A0F49D /* Pods */,
+				5A9E9A952653B2FC62784911 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EAE0C491AB3209400C7081F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EAE0C481AB3209400C7081F /* libLINUIImageViewAsyncAdditions.a */,
+				4EAE0C531AB3209400C7081F /* LINUIImageViewAsyncAdditionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EAE0C4A1AB3209400C7081F /* LINUIImageViewAsyncAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				4EBDECDC1AF38DFD00FC5EF4 /* LINUIImageView+Async.h */,
+				4EBDECDD1AF38DFD00FC5EF4 /* LINUIImageView+Async.m */,
+				4EBDECDF1AF38E2600FC5EF4 /* LINAsyncImageURLProvider.h */,
+				4EBDECE01AF38E2600FC5EF4 /* LINAsyncProcessedImageURLProvider.h */,
+				4EFF2A311AB3C94000765C54 /* Helper */,
+			);
+			path = LINUIImageViewAsyncAdditions;
+			sourceTree = "<group>";
+		};
+		4EAE0C571AB3209400C7081F /* LINUIImageViewAsyncAdditionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EAE0C581AB3209400C7081F /* Supporting Files */,
+			);
+			path = LINUIImageViewAsyncAdditionsTests;
+			sourceTree = "<group>";
+		};
+		4EAE0C581AB3209400C7081F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EAE0C591AB3209400C7081F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EFF2A311AB3C94000765C54 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4EBDECE11AF38E2E00FC5EF4 /* LINAsyncImageProcessedImageCache.h */,
+				4EBDECE21AF38E2E00FC5EF4 /* LINAsyncImageProcessedImageCache.m */,
+				4EBDECE31AF38E2E00FC5EF4 /* LINAsyncImageRequestHeadersFilterRegistrar.h */,
+				4EBDECE41AF38E2E00FC5EF4 /* LINAsyncImageRequestHeadersFilterRegistrar.m */,
+				4EBDECE51AF38E2E00FC5EF4 /* LINAsyncImageResolvedURLCache.h */,
+				4EBDECE61AF38E2E00FC5EF4 /* LINAsyncImageResolvedURLCache.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		5A9E9A952653B2FC62784911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D97ECEBBB95AE55F5B1840A /* libPods-LINUIImageViewAsyncAdditions.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB960F1D50DC533350A0F49D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3272C4CB8DD9BE455831E0E3 /* Pods-LINUIImageViewAsyncAdditions.debug.xcconfig */,
+				61C4FDAD941B0BBD3532EBAE /* Pods-LINUIImageViewAsyncAdditions.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EAE0C471AB3209400C7081F /* LINUIImageViewAsyncAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAE0C5C1AB3209400C7081F /* Build configuration list for PBXNativeTarget "LINUIImageViewAsyncAdditions" */;
+			buildPhases = (
+				FA1945E5CDC06303A57468A6 /* Check Pods Manifest.lock */,
+				4EAE0C441AB3209400C7081F /* Sources */,
+				4EAE0C451AB3209400C7081F /* Frameworks */,
+				4EAE0C461AB3209400C7081F /* CopyFiles */,
+				2F709DDFD5E4CC48B6F661AF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LINUIImageViewAsyncAdditions;
+			productName = LINUIImageViewAsyncAdditions;
+			productReference = 4EAE0C481AB3209400C7081F /* libLINUIImageViewAsyncAdditions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4EAE0C521AB3209400C7081F /* LINUIImageViewAsyncAdditionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAE0C5F1AB3209400C7081F /* Build configuration list for PBXNativeTarget "LINUIImageViewAsyncAdditionsTests" */;
+			buildPhases = (
+				4EAE0C4F1AB3209400C7081F /* Sources */,
+				4EAE0C501AB3209400C7081F /* Frameworks */,
+				4EAE0C511AB3209400C7081F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EAE0C561AB3209400C7081F /* PBXTargetDependency */,
+			);
+			name = LINUIImageViewAsyncAdditionsTests;
+			productName = LINUIImageViewAsyncAdditionsTests;
+			productReference = 4EAE0C531AB3209400C7081F /* LINUIImageViewAsyncAdditionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EAE0C401AB3209400C7081F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = covelline;
+				TargetAttributes = {
+					4EAE0C471AB3209400C7081F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4EAE0C521AB3209400C7081F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4EAE0C431AB3209400C7081F /* Build configuration list for PBXProject "LINUIImageViewAsyncAdditions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EAE0C3F1AB3209400C7081F;
+			productRefGroup = 4EAE0C491AB3209400C7081F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EAE0C471AB3209400C7081F /* LINUIImageViewAsyncAdditions */,
+				4EAE0C521AB3209400C7081F /* LINUIImageViewAsyncAdditionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EAE0C511AB3209400C7081F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F709DDFD5E4CC48B6F661AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LINUIImageViewAsyncAdditions/Pods-LINUIImageViewAsyncAdditions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1945E5CDC06303A57468A6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EAE0C441AB3209400C7081F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBDECE71AF38E2E00FC5EF4 /* LINAsyncImageProcessedImageCache.m in Sources */,
+				4EBDECE91AF38E2E00FC5EF4 /* LINAsyncImageResolvedURLCache.m in Sources */,
+				4EBDECDE1AF38DFD00FC5EF4 /* LINUIImageView+Async.m in Sources */,
+				4EBDECE81AF38E2E00FC5EF4 /* LINAsyncImageRequestHeadersFilterRegistrar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAE0C4F1AB3209400C7081F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EAE0C561AB3209400C7081F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EAE0C471AB3209400C7081F /* LINUIImageViewAsyncAdditions */;
+			targetProxy = 4EAE0C551AB3209400C7081F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4EAE0C5A1AB3209400C7081F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EAE0C5B1AB3209400C7081F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EAE0C5D1AB3209400C7081F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3272C4CB8DD9BE455831E0E3 /* Pods-LINUIImageViewAsyncAdditions.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4EAE0C5E1AB3209400C7081F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C4FDAD941B0BBD3532EBAE /* Pods-LINUIImageViewAsyncAdditions.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4EAE0C601AB3209400C7081F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LINUIImageViewAsyncAdditionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EAE0C611AB3209400C7081F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LINUIImageViewAsyncAdditionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EAE0C431AB3209400C7081F /* Build configuration list for PBXProject "LINUIImageViewAsyncAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAE0C5A1AB3209400C7081F /* Debug */,
+				4EAE0C5B1AB3209400C7081F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAE0C5C1AB3209400C7081F /* Build configuration list for PBXNativeTarget "LINUIImageViewAsyncAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAE0C5D1AB3209400C7081F /* Debug */,
+				4EAE0C5E1AB3209400C7081F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAE0C5F1AB3209400C7081F /* Build configuration list for PBXNativeTarget "LINUIImageViewAsyncAdditionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAE0C601AB3209400C7081F /* Debug */,
+				4EAE0C611AB3209400C7081F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EAE0C401AB3209400C7081F /* Project object */;
+}
